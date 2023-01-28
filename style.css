@@ -1,0 +1,44 @@
+body {
+  border: 10px groove greenyellow;
+  margin: 0;
+}
+.bgBlack {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border: 5px solid red;
+  font-size: 30px;
+  border-radius: 40px;
+}
+
+.firstDiv {
+  padding: 20px 20px 50px;
+  margin-left: 20px;
+}
+.secondDiv {
+  padding: 30px 40px 10px 100px;
+  margin-left: -145px;
+}
+.thirdDiv {
+  padding: 30px 100px 10px 100px;
+}
+/* Offer  */
+.offer {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 350px;
+  width: 350px;
+  background-color: rgb(101, 151, 187);
+  border-radius: 50%;
+  text-align: center;
+  padding: 70px 0px;
+  border: 5px solid rgb(78, 49, 145);
+}
+/* Form  */
+.dashed {
+  display: inline-block;
+  border: 5px dashed red;
+  background-color: white;
+  color: rgb(228, 137, 152);
+  text-align: center;
+}
