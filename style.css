@@ -1,6 +1,7 @@
 body {
   border: 10px groove greenyellow;
   margin: 0;
+  background-image: url("./img/bg_img.jpg");
 }
 .bgBlack {
   display: inline-block;
@@ -21,24 +22,73 @@ body {
 }
 .thirdDiv {
   padding: 30px 100px 10px 100px;
+  margin-top: 30px;
+}
+/* hero container  */
+.hero-container {
+  display: flex;
 }
 /* Offer  */
+.offer-container {
+  display: inline-block;
+  width: 560px;
+  padding: 70px;
+}
 .offer {
   box-sizing: border-box;
   display: inline-block;
   height: 350px;
   width: 350px;
-  background-color: rgb(101, 151, 187);
+  background-color: rgb(101 187 155);
   border-radius: 50%;
   text-align: center;
   padding: 70px 0px;
-  border: 5px solid rgb(78, 49, 145);
+  border: 5px solid rgb(147 135 135);
 }
 /* Form  */
 .dashed {
   display: inline-block;
   border: 5px dashed red;
   background-color: white;
-  color: rgb(228, 137, 152);
+  color: rgb(255, 0, 43);
+  text-align: center;
+  padding: 10px;
+}
+.fontMed {
+  font-size: 20px;
+}
+/* menu  */
+.menu-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 0 0;
+}
+.menu {
+  width: 500px;
+  text-align: center;
+}
+.menu-txt {
+  margin: 20px 0;
+}
+/* Cards  */
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+  height: 650px;
+}
+.card {
+  background-color: aqua;
+  color: rgb(79, 9, 153);
+  padding: 10px 20px;
+  width: 300px;
+  border-radius: 30px;
+  border: 3px solid green;
+}
+li {
+  width: 200px;
   text-align: center;
 }
